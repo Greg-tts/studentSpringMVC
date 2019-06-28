@@ -1,0 +1,5 @@
+ch/javaee/simpleMvc/AppConfiguration.class
+ch/javaee/simpleMvc/web/HelloController.class
+ch/javaee/simpleMvc/config/DispatcherConfig.class
+ch/javaee/simpleMvc/WebInitializer.class
+ch/javaee/simpleMvc/config/ThymeleafConfig.class

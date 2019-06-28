@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+        <title>Students</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <link rel="stylesheet" type="text/css" media="all" href="../../css/main.css" th:href="@{/css/main.css}"/>
+
+</head>
+<body>
+	<h1>Students Page</h1>
+	<ul th:each="student: ${students}">
+	    <li th:text="${student.name}" />
+	</ul>
+</body>
+</html>
